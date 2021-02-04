@@ -16,20 +16,31 @@
 
     <TextView
         android:id="@+id/Quantity_textView"
-        android:padding="16dp"
+        android:layout_marginBottom="16dp"
         android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
         android:textColor="#000"
         />
+
     <TextView
         android:layout_marginBottom="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="QUANTITY:"
+        android:text="PRICE:"
         android:textSize="20sp"
         />
+
+    <TextView
+        android:id="@+id/price_text_view"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0"
+        android:textColor="#000"
+        />
+
     <Button
         android:id="@+id/button_TextView"
         android:layout_marginTop="16dp"
