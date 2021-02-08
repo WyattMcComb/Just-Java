@@ -17,7 +17,7 @@
     <Button
         android:id="@+id/button_plus_TextView"
         android:onClick="increment"
-        android:layout_marginBottom="16dp"
+
         android:layout_width="48dp"
         android:text="+"
         android:layout_height="48dp"
@@ -25,7 +25,7 @@
 
     <TextView
         android:id="@+id/Quantity_textView"
-        android:layout_marginBottom="16dp"
+
         android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
