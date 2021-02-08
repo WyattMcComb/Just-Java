@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void increment(View view) {
         int quantity = 2;
-        quantity = 3;
+        quantity = quantity + 1;
         display(quantity);
     }
 
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void decrement(View view) {
         int quantity = 2;
-        quantity = 1;
+        quantity = quantity - 1;
         display(quantity);
     }
 
