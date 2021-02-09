@@ -38,12 +38,13 @@ public class MainActivity extends AppCompatActivity {
         display(2);
         displayPrice(numberOfCoffees*5);
     }
+    
+    int quantity = 2;
 
     /**
      * This method is called when the plus button is clicked.
      */
     public void increment(View view) {
-        int quantity = 2;
         quantity = quantity + 1;
         display(quantity);
     }
@@ -52,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the minus button is clicked.
      */
     public void decrement(View view) {
-        int quantity = 2;
         quantity = quantity - 1;
         display(quantity);
     }
