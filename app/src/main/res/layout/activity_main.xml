@@ -22,9 +22,9 @@
 
         <Button
             android:id="@+id/button_plus_TextView"
-            android:onClick="increment"
+            android:onClick="decrement"
             android:layout_width="48dp"
-            android:text="+"
+            android:text="-"
             android:layout_height="48dp"
             />
 
@@ -41,9 +41,9 @@
             android:id="@+id/button_minus_TextView"
             android:layout_marginBottom="16dp"
             android:layout_width="48dp"
-            android:text="-"
+            android:text="+"
             android:layout_height="48dp"
-            android:onClick="decrement"
+            android:onClick="increment"
             />
 
     </LinearLayout>
@@ -73,8 +73,5 @@
         android:layout_height="wrap_content"
         android:onClick="submitOrder"
         />
-
-
-
 
 </LinearLayout>
