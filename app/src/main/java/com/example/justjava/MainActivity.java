@@ -38,6 +38,18 @@ public class MainActivity extends AppCompatActivity {
         int price = quantity * 5;
         String priceMessage = "Total: $" + price;
         displayMessage(priceMessage);
+
+
+        calculatePrice(quantity, 10);
+    }
+
+    /**
+     * Calculates the price of the order.
+     *
+     * @param quantity is the number of cups of coffee ordered
+     */
+    private void calculatePrice(int quantity, int pricePerCup) {
+        int price = quantity * pricePerCup;
     }
 
     /**
@@ -47,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
         quantity = quantity + 1;
         display(quantity);
     }
+
+
 
     /**
      * This method is called when the minus button is clicked.
