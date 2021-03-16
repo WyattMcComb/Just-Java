@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private String createOrderSummary (String name, int price, boolean addWhippedCream, boolean addChocolate) {
-        String priceMessage = "Name: " + name;
+        String priceMessage = getString(R.string.order_summary_name, name);
         priceMessage = priceMessage + "\nAdd whipped cream? " + addWhippedCream;
         priceMessage = priceMessage + "\nAdd Chocolate? " + addChocolate;
         priceMessage = priceMessage + "\nQuantity: " + quantity;
