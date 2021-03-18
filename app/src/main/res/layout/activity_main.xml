@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
+        style="@style/AppTheme"
         android:orientation="vertical" >
 
         <EditText
@@ -27,6 +28,7 @@
             android:layout_marginBottom="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/HeaderTextStyle"
             android:text="@string/toppings"
             android:textSize="20sp"
             />
@@ -55,6 +57,7 @@
             android:layout_marginBottom="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/HeaderTextStyle"
             android:text="QUANTITY"
             android:textSize="20sp"
             />
